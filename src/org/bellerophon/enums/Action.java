@@ -1,0 +1,56 @@
+/*******************************************************************************
+ * This file is part of the Bellerophon client side application.
+ * 
+ * Filename: Action.java
+ * Author: Eric J. Lingerfelt
+ * Author Contact: eric@pandiasoftware.com
+ * Copyright (c) 2009 - 2022, Oak Ridge National Laboratory
+ * All rights reserved.
+ *******************************************************************************/
+package org.bellerophon.enums;
+
+/**
+ * The Enum Action contains values for each type of allowable web service calls.
+ *
+ * @author Eric J. Lingerfelt
+ */
+public enum Action{
+	GET_ID,
+	GET_USER_DATA,
+	LOGOUT,
+	LOG_JAVA_EXCEPTION,
+	GET_REGRESSION_TESTS,
+	CREATE_SVN_STATS,
+	GET_DIR_LISTING,
+	CREATE_REGRESSION_TEST_TARFILE,
+	CREATE_HDF_DUMP, 
+	GET_REVISIONS, 
+	GET_VIZ_SETS,
+	GET_DATA_FOR_REVISION,
+	CREATE_2D_VIZ_SET,
+	CREATE_3D_VIZ_SET,
+	MOD_2D_VIZ_SET,
+	MOD_3D_VIZ_SET,
+	DELETE_VIZ_SET,
+	REWIND_VIZ_SET,
+	VIZ_SET_ID_EXISTS, 
+	GET_VIZ_JOBS, 
+	GET_MATPLOTLIB_ANIMATIONS, 
+	GET_UPLOADED_ANIMATIONS,
+	CREATE_MATPLOTLIB_ANIMATION_MOVIEFILE, 
+	CREATE_UPLOADED_ANIMATION_MOVIEFILE, 
+	SET_HOT_MATPLOTLIB_ANIMATION,
+	SET_HOT_UPLOADED_ANIMATION,
+	CREATE_MATPLOTLIB_ANIMATION_TARFILE, 
+	CREATE_UPLOADED_ANIMATION_TARFILE,
+	GENERATE_MATPLOTLIB_ANIMATION_PREVIEW,
+	GET_MATPLOTLIB_ANIMATION_DATAFILE_SIZE,
+	CREATE_MATPLOTLIB_ANIMATION_PYTHONFILE, 
+	RECREATE_MATPLOTLIB_ANIMATION_FRAME,
+	RECREATE_MATPLOTLIB_ANIMATION, 
+	UPLOAD_ANIMATION_FRAME, 
+	GET_DEFAULT_MATPLOTLIB_ANIMATIONS, 
+	GET_MATPLOTLIB_MODELS, 
+	GET_MATPLOTLIB_COLORMAPS, 
+	GET_PROGENITORS;
+}
