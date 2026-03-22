@@ -1,1 +1,1 @@
-Bellerophon Environment for Analysis of Materials Client
+Bellerophon Client
